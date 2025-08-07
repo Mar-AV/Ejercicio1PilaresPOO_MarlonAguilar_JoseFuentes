@@ -12,7 +12,6 @@ namespace Ejercicio1PilaresPoo
 
             string opcion = Console.ReadLine();
 
-            // Verificación básica para evitar null
             if (string.IsNullOrEmpty(opcion))
             {
                 Console.WriteLine("Opción no válida.");
